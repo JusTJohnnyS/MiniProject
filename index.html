@@ -10,9 +10,9 @@
 <body>
   <section>
     <nav>
-      <img src="./assests/FES.svg">
+      <img src="./assests/FES.svg" class="logo">
         
-          <ul class="nav__link__wrapper">
+          <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#discord">Discord</a></li>
             <li><a href="#contact">Contact</a></li> 
@@ -20,14 +20,16 @@
         
     </nav>
     <header>
+      <div class="row">
       <div>
         <h1>Best place to learn Frontend</h1>
-        <p>Go from absoluate beginner to pro with simplified process</p>
+        <p class="subheader">Go from absoluate beginner to pro with simplified process</p>
         <button>Start Now</button>
       </div>
       <figure>
         <img src="./assests/laptop.png" alt="home page img"/>
       </figure>
+    </div>
     </header>
   </section>
 
@@ -56,10 +58,12 @@
       </figure>
     </section>
 
-    <section id="discord">
+    <section id="contact">
       <h2>Contact</h2>
-        <form>
+        <form action="">
           <label>Email</label>
+          <input type="email">
+          <label>Message</label>
           <textarea>Tell me what you are interrested in.</textarea>
           <button>Submit</button>
         </form>
@@ -69,9 +73,10 @@
   <footer>
     <img src="./assests/FES.svg">
     <div>
-      <a href="">About</a>
-      <a href="">Discord</a>
-      <a href="">Contact</a>
+      <a href="#about">About</a>
+      <a href="#discord">Discord</a>
+      <a href="#contact">Contact</a>
+      <a href="">Courses</a> 
     </div>
     <p>Copywright stuff</p>
   </footer>
