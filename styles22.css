@@ -148,6 +148,7 @@ form{
   margin:0 auto;
   display: flex;
   flex-direction: column;
+  padding:0 24px;
 }
 
 input,
@@ -179,4 +180,62 @@ align-items: center;
 
 .footer__link{
   padding:0 16px;
+}
+
+
+
+/* Small phones , tables ,large smartphones */
+@media(max-width:728px){
+
+  .row{
+    flex-direction: column;
+  }
+
+  .subheader__wrapper{
+    text-align: center;
+    margin-bottom:24px;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 60px;
+  }
+
+  ul{
+    display:none;
+  }
+
+  .section__description{
+    flex-direction: column;
+  }
+
+  .section__des--warpper{
+    width:100%;
+  }
+
+  .about__img--wrapper{
+    width:100%;
+  }
+
+
+  #discord  .section__description {
+    flex-direction: column-reverse;
+  }
+
+  .discord__img--wrapper{
+    width:100%;
+  }
+
+  .footer__logo{
+    padding:0 24px;
+    margin-bottom:16px;
+  }
+
+  .footer__link{
+    font-size: 16px;
+  }
+  .footer__links{
+    margin-bottom:16px;
+  }
+
 }
